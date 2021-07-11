@@ -11,6 +11,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
 ### STS ###
 .apt_generated
 .classpath
@@ -33,9 +39,6 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
