@@ -1,6 +1,0 @@
-rootProject.name = 'MagicBox-gradle'
-include 'Box'
-include 'Box:Grid'
-findProject(':Box:Grid')?.name = 'Grid'
-include 'hello'
-
